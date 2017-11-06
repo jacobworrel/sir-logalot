@@ -6,6 +6,7 @@ npm install --save-dev logit
 ```
 ## API
 ##### log.label(string, variable)
+Prints an arrow between label and value of variable.
 
 ``` js
 const friend = 'fred';
@@ -37,6 +38,7 @@ in inner loop
 ```
 ### Symbols:
 ![symbols](https://s1.postimg.org/1xd8ta71cv/symbols.png)
+
 You may optionally provide a string as an argument to overwrite the default messages.
 ##### log.error([msg])
 ##### log.success([msg])
@@ -45,11 +47,11 @@ You may optionally provide a string as an argument to overwrite the default mess
 
 ### ASCII Art:
 You may optionally provide a string as an argument to overwrite the default messages.
-##### log.frog([msg]);
+##### log.frog([msg])
 ![frog](https://s1.postimg.org/35blmk81hr/frog.png)
-##### log.cat([msg]);
+##### log.cat([msg])
 ![cat](https://s1.postimg.org/76c3klxysv/cat.png)
-##### log.cow([msg]);
+##### log.cow([msg])
 ![cow](https://s1.postimg.org/5wlxsgecjz/cow.png)
 
 ### Emojis:
