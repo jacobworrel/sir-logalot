@@ -1,8 +1,12 @@
-# log
+# sir-logalot
 ##### A dead simple, declarative Node.js logging library to spice up your development life.
 ## Usage
+
 ```sh
-npm install --save-dev logit
+npm install sir-logalot
+```
+```js
+const log = require('sir-logalot');
 ```
 ## API
 ##### log.label(string, variable)

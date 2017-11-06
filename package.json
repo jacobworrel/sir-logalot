@@ -1,8 +1,8 @@
 {
-  "name": "log",
+  "name": "sir-logalot",
   "version": "1.0.0",
-  "description": "A logging library to spice up your development life.",
-  "main": "log.js",
+  "description": "A dead simple, declarative logging library to spice up your development life.",
+  "main": "lib/log.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
