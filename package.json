@@ -1,0 +1,11 @@
+{
+  "name": "log",
+  "version": "1.0.0",
+  "description": "A logging library to spice up your development life.",
+  "main": "log.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacob Worrel",
+  "license": "ISC"
+}
